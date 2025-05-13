@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Share+Tech&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body{
+    background: #161515;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1b1515;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #383636;
+    font-size: x-large;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-size: x-large;
+    margin-left: auto;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #eee3e3;
+    font-weight: 600;
+}
+
+header nav ul li a:hover{
+    color: #a52525;
+    background: #272626;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+header #logo, #cardapio, #contato, #sobre{
+    color: #f4f4f4;
+}   
