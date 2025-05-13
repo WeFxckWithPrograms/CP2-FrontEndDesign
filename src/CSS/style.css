@@ -17,8 +17,10 @@ header{
     align-items: center;
     background: #1b1515;
     padding: 20px;
-    box-shadow: 5px 5px 5px #383636;
+    box-shadow: 0 4px 10px rgba(0, 0, 30, 0.4);
     font-size: x-large;
+    position: relative;
+    z-index: 2;
 }
 
 header nav ul{
@@ -46,4 +48,52 @@ header nav ul li a:hover{
 
 header #logo, #cardapio, #contato, #sobre{
     color: #f4f4f4;
-}   
+}
+
+#bannerHome{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#bannerCardapio{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#bannerContato{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#bannerSobre{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+footer{
+    color: #a59a9a;
+}
