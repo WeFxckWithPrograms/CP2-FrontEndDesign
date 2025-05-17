@@ -9,7 +9,7 @@
 
 body {
     background: #161515;
-    padding-top: 80px; /* Espaço para o header fixo */
+    padding-top: 80px;
 }
 
 header {
@@ -53,7 +53,6 @@ header #logo, #cardapio, #contato, #sobre {
     color: #f4f4f4;
 }
 
-/* Banners de fundo tela cheia */
 #bannerHome,
 #bannerCardapio,
 #bannerContato,
@@ -70,9 +69,9 @@ header #logo, #cardapio, #contato, #sobre {
     z-index: 1;
 }
 
-/* Imagens específicas */
 #bannerHome {
     background-image: url('/CP2-FrontEndDesign/src/assets/imgs/bannerHome.png');
+    position: relative;
 }
 
 #bannerCardapio {
@@ -87,7 +86,6 @@ header #logo, #cardapio, #contato, #sobre {
     background-image: url('/CP2-FrontEndDesign/src/assets/imgs/bannerSobre.png');
 }
 
-/* Conteúdo sobre o banner */
 .banner-content {
     position: absolute;
     top: 50%;
@@ -95,7 +93,7 @@ header #logo, #cardapio, #contato, #sobre {
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: row;
-    gap: 80px; /* Maior espaçamento */
+    gap: 80px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -108,7 +106,7 @@ header #logo, #cardapio, #contato, #sobre {
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: row;
-    gap: 80px; /* Maior espaçamento */
+    gap: 80px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -132,21 +130,21 @@ header #logo, #cardapio, #contato, #sobre {
 .card {
     background-color: #1b1515;
     color: #eee3e3;
-    padding: 50px 60px; /* Padding maior */
+    padding: 50px 60px;
     border-radius: 20px;
-    width: 550px; /* Cards maiores */
+    width: 550px;
     max-width: 100%;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     opacity: 0.95;
 }
 
 .card h2 {
-    font-size: 42px; /* Título maior */
+    font-size: 42px;
     margin-bottom: 15px;
 }
 
 .card p {
-    font-size: 22px; /* Texto maior */
+    font-size: 22px;
     line-height: 1.5;
 }
 
@@ -154,4 +152,66 @@ footer {
     color: #a59a9a;
     padding: 20px;
     text-align: center;
+    z-index: 7;
+    position: relative;
+}
+
+aside{
+    width: 280px;
+    background-color: rgba(44, 2, 2, 0.7);
+    color: white;
+    height: 100vh;
+    padding: 2rem;
+    position: absolute;
+    z-index: 5;
+    overflow-y: auto;
+    flex-direction: column;
+    gap: 2rem;
+    display: flex;
+    top: 80px;
+    left: 0;
+    align-items: left;
+    text-align: left;
+}
+
+aside ul{
+    padding-left: 0;
+}
+aside h1{
+    font-size: 1.5rem;
+}
+
+aside h2{
+    font-size: 1.5rem;
+    margin-top: auto;
+}
+
+aside li{
+    margin-bottom: 10px;
+}
+aside a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+aside a:hover{
+    color: rgb(119, 20, 20);
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.imgContent{
+    display: grid;
+    grid-template-columns: repeat(4fr);
+    gap: 1rem;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
