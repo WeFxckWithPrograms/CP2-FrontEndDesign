@@ -113,7 +113,6 @@ header #logo, #cardapio, #contato, #sobre {
     align-items: center;
     text-align: center;
     z-index: 2;
-    
 }
 
 .card {
@@ -128,12 +127,12 @@ header #logo, #cardapio, #contato, #sobre {
 }
 
 .card h2 {
-    font-size: 32px; /* Título maior */
+    font-size: 42px; /* Título maior */
     margin-bottom: 15px;
 }
 
 .card p {
-    font-size: 20px; /* Texto maior */
+    font-size: 22px; /* Texto maior */
     line-height: 1.5;
 }
 
