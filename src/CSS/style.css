@@ -115,6 +115,20 @@ header #logo, #cardapio, #contato, #sobre {
     z-index: 2;
 }
 
+.contato-content {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
 .card {
     background-color: #1b1515;
     color: #eee3e3;
