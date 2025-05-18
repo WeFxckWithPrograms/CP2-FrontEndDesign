@@ -6,4 +6,4 @@ Alexendre Martins Lucas             RM: 561732
 Diego Bondezan Yonamine             RM: 562013
 Felipe Otávio Garcia Madeira        RM: 563521
 
-Link do Repositório: https://github.com/WeFxckWithPrograms/CP2-FrontEndDesign.git
+Link do Repositório: https://github.com/WeFxckWithPrograms/CP2-FrontEndDesign.gitgit
